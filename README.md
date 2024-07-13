@@ -40,5 +40,24 @@ He abierto mi repositorio nuevo con VSCode. Creo un nuevo fichero README.md :
 
 **git checkout development**
 
+Creo ficheo fichero1.js en mi carpeta principal.
+
+**git add .**
+
+**git commit -am "Development"**
+
+**git push -set-upstream origin development**
+
+![Imagen de lo realizado](imagenes/Captura5.png)
+
+5. Hago un merge
+
+**git checkout master**
+
+**git merge development -m "Merge con development"**
+
+**git push**
+
+
 
 
